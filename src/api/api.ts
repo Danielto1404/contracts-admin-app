@@ -1,5 +1,5 @@
 import axios, {AxiosRequestConfig} from "axios";
-import {Contract, ContractVerificationStatus, StatusResponse} from "./types";
+import {Contract, StatusResponse} from "./types";
 
 const baseURL = "https://mjolnear-contracts-indexer.herokuapp.com/api.mjolnear.com"
 const instance = axios.create({
